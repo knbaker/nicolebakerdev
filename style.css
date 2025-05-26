@@ -1,0 +1,251 @@
+html, body {
+    height: 100%;
+    font-size: 15px;
+}
+
+.meow-script-regular {
+    font-family: "Meow Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.gabriela-regular {
+    font-family: "Gabriela", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+body {
+    background-image: url("Floral_background_2.jpg");
+    background-attachment: fixed;
+    background-size: contain;
+    padding: 10px;
+}
+
+nav {
+    background-color: #bc8c92;
+    max-width: 900px;
+    height: 100%;
+    border-radius: 10px;
+    margin: auto;
+}
+
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    height: 100%;
+    padding-left: 0;
+}
+
+nav ul li {
+    float: left;
+    padding: 15px;
+    height: 100%;
+}
+
+nav ul li a {
+    text-align: center;
+    height: 100%;
+    color: #f9e0e4;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li:hover {
+    background-color: #eaabb1;
+}
+
+.first:hover {
+    background-color: #eaabb1;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    body {
+        padding: 10px;
+    }
+}
+
+.body-wrapper {
+    background-color: #f9f4f1;
+    height: 90%;
+    max-width: 880px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    mask: 
+    linear-gradient(0,#0000 22px,#000 0) 0 11px,
+    radial-gradient(11px,#000 calc(100% - 1px),#0000) 50%/20.35px 22px repeat space
+}
+
+.info-section {
+    float: left;
+    width: 50%;
+    padding-left: 5px;
+}
+
+.name h1 {
+    font-family: "Meow Script";
+    margin: auto;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 100%;
+    color: #e097a6;
+    overflow: hidden;
+    font-size: 6rem;
+    align-content: center;
+    text-align: center;
+}
+
+.name {
+    height: 30%;
+    border-bottom-style: dotted;
+    border-bottom-width: 5px;
+    border-bottom-color: #c2b8a4;
+    display: grid;
+}
+
+.personal-info {
+    padding-top: 20px;
+    height: 70%;
+}
+
+.personal-info h2 {
+    font-family: "Gabriela";
+    font-size: 1rem;
+    color: #b0a599;
+}
+
+.projects-section {
+    float: left;
+    width: 50%;
+}
+
+.projects-section {
+    list-style-type: none;
+    margin-right: 20px;
+    height: 650px;
+    overflow-y: scroll;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.projects-section ul li {
+    border: solid 5px #fad3d7;
+    height: 200px;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+.project-header h2 {
+    height: 40px;
+    background-color: #fad3d7;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #b0a599;
+    font-family: "Gabriela";
+    font-size: 1.3rem;
+    overflow: hidden;
+}
+
+.project-body h3 {
+    color: #b0a599;
+    margin-top: 5px;
+    padding: 0px;
+    font-family: "Gabriela";
+    font-size: 1rem;
+}
+
+.wrapper {
+    margin-top, margin-bottom: 50px;
+    height: 90%;
+}
+
+@media only screen and (max-width: 950px) {
+    .name h1 {
+        font-size: 5rem;
+    }
+}
+
+/* Projects page */
+
+.main-projects {
+    width: 100%;
+    margin: none;
+    display: flex;
+    padding: none;
+}
+
+.main-projects ul {
+    list-style-type: none;
+    margin: 0px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 0px;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.main-projects li {
+    margin: none;
+    margin-bottom: 5px;
+    border: solid 5px #fad3d7;
+    height: 50%;
+}
+
+.main-projects h1 {
+    margin: 0px;
+    padding: 5px;
+    background-color: #fad3d7;
+    color: #b0a599;
+    font-size: 1.6rem;
+    align-items: center;
+    text-align: center;
+}
+
+/* Contact Page */
+
+.contact-wrapper {
+    background-color: #f9f4f1;
+    height: 90%;
+    max-width: 880px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    mask: 
+    linear-gradient(0,#0000 22px,#000 0) 0 11px,
+    radial-gradient(11px,#000 calc(100% - 1px),#0000) 50%/20.35px 22px repeat space
+}
+
+.contact-header h1 {
+    font-family: "Meow Script";
+    color: #e097a6;
+    overflow: hidden;
+    font-size: 4rem;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.contact-info {
+    color: #b0a599;
+    font-size: 1rem;
+    font-family: "Gabriela";
+}
+
+#flower-gif {
+    width: 100px;
+    height: 100px;
+}
