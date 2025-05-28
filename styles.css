@@ -308,6 +308,11 @@ nav ul li:hover {
 
     .projects-section ul {
         padding-left: 15px;
+        width: 135px;
+    }
+
+    .projects-section ul li h2 {
+        height: 50px;
     }
 
     .main-projects ul {
@@ -318,19 +323,19 @@ nav ul li:hover {
     }
 
     .main-projects ul li {
-        width: 310px;
+        width: 325px;
         justify-content: center;
         align-items: center;
     } 
 
     .contact-wrapper {
         margin-top: 20px;
-        height: 480px;
+        height: 625px;
     }
 
     .projects-wrapper {
         margin-top: 20px;
-        height: 480px;
+        height: 625px;
     }
 
     nav ul li:hover {
