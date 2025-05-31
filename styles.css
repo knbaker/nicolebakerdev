@@ -1,6 +1,8 @@
 html, body {
     height: 100%;
     font-size: 15px;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .meow-script-regular {
@@ -124,30 +126,33 @@ nav ul li:hover {
 }
 
 .projects-section {
+    list-style-type: none;
+    margin-right: 20px;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    align-items: center;
+    justify-content: center;
     float: left;
     width: 50%;
 }
 
-.projects-section {
-    list-style-type: none;
-    margin-right: 20px;
-    height: 650px;
-    overflow-y: scroll;
-    align-items: center;
-    justify-content: center;
-
+.projects-section ul {
+    height: 100%;
+    padding-left: 30;
 }
 
 .projects-section ul li {
     border: solid 5px #fad3d7;
-    height: 200px;
+    height: 33%;
     margin-bottom: 10px;
     list-style-type: none;
-    width: 100%;
+    width: 96%;
 }
 
 .project-header h2 {
     height: 40px;
+    width: 100%;
     background-color: #fad3d7;
     margin: 0px;
     padding: 0px;
@@ -197,29 +202,32 @@ nav ul li:hover {
     width: 100%;
     margin: none;
     display: flex;
-    padding: none;
+    padding: 0;
 }
 
 .main-projects ul {
     list-style-type: none;
-    margin: 0px;
+    margin: 0;
     margin-top: 5px;
     margin-bottom: 10px;
-    padding: 0px;
+    padding: 0;
     width: 100%;
     overflow-y: scroll;
+    overflow-x: hidden;
+    flex-direction: column;
+    align-items: center;
 }
 
 .main-projects li {
-    margin: none;
+    margin: 0;
     margin-bottom: 5px;
     border: solid 5px #fad3d7;
     height: 50%;
-    width: 100%;
+    width: 98%;
 }
 
 .main-projects h1 {
-    margin: 0px;
+    margin: 0;
     padding: 5px;
     background-color: #fad3d7;
     color: #b0a599;
@@ -308,7 +316,6 @@ nav ul li:hover {
 
     .projects-section ul {
         padding-left: 15px;
-        width: 135px;
     }
 
     .projects-section ul li h2 {
