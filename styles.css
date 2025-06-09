@@ -148,6 +148,7 @@ nav ul li:hover {
     margin-bottom: 10px;
     list-style-type: none;
     width: 93%;
+    border-radius: 5px;
 }
 
 .project-header h2 {
