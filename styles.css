@@ -97,11 +97,11 @@ nav ul li:hover {
     font-family: "Meow Script";
     margin: auto;
     padding-bottom: 20px;
-    width: 100%;
+    width: 95%;
     height: 100%;
     color: #e097a6;
     overflow: hidden;
-    font-size: 5.8rem;
+    font-size: 6rem;
     align-content: center;
     text-align: center;
 }
